@@ -15,10 +15,11 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Set up CMake
-      uses: actions/setup-cmake@v2
-      with:
-        cmake-version: '3.22.0'
+    - name: Install CMake
+      run: |
+        sudo apt-get update -y
+        sudo apt-get install cmake -y
+        cmake --version
 
     - name: Build and Test
       run: |
