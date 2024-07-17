@@ -1,0 +1,26 @@
+name: BKTree_Build_And_Test
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up CMake
+      uses: lukka/get-cmake@v3.21.3
+    - name: Build and Test
+      run: |
+        mkdir -p build
+        cd ./build
+        cmake ..
+        make
+        ./output
