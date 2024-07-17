@@ -1,3 +1,5 @@
+![CI](https://github.com/H-Shen/BKTree/workflows/BKTree_Build_And_Test/badge.svg)
+
 ## An implementation of BKTree in Cpp
 
 ### Introduction
