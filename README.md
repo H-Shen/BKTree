@@ -1,4 +1,4 @@
-## An implementation of BKTree
+## An implementation of BKTree in Cpp
 
 ### Introduction
 
@@ -8,8 +8,8 @@ The code is implemented in C++ 20.
 
 ### Pre-requisites
 
-cmake (>=3.20)
-make (>=3.81)
+- cmake (>=3.20)
+- make (>=3.81)
 
 ### Building and Running
 
