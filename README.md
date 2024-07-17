@@ -8,7 +8,7 @@ The code is implemented in C++ 20.
 
 ### Pre-requisites
 
-cmake (>=3.22)
+cmake (>=3.20)
 make (>=3.81)
 
 ### Building and Running
